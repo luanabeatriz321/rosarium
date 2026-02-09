@@ -50,13 +50,14 @@ footer {
     background-color: #fff9da;
     color: #0c090a;
     padding: 30px 20px;
-}
- 
-.rodape-conteudo {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+}
+ 
+.rodape_logo{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
  
 .rodape h3 {
@@ -66,6 +67,7 @@ footer {
 .rodape p {
     margin: 5px 0;
 }
+
  
 .copy {
     text-align: center;
@@ -231,4 +233,3 @@ body {
 #contato button:hover {
   background-color: #005fa3;
 }
- 
